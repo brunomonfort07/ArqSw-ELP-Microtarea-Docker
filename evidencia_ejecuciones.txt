@@ -1,0 +1,259 @@
+PS C:\Users\Bruno\Desktop\ArqSW_ELP_Practico\ArqSw-ELP-Microtarea-Docker> docker compose up
+error during connect: this error may indicate that the docker daemon is not running: Get "http://%2F%2F.%2Fpipe%2Fdocker_engine/v1.24/containers/json?all=1&filters=%7B%22label%22%3A%7B%22com.docker.compose.config-hash%22%3Atrue%2C%22com.docker.compose.project%3Darqsw-elp-microtarea-docker%22%3Atrue%7D%7D": open //./pipe/docker_engine: The system cannot find the file specified.
+PS C:\Users\Bruno\Desktop\ArqSW_ELP_Practico\ArqSw-ELP-Microtarea-Docker> docker
+
+Usage:  docker [OPTIONS] COMMAND
+
+A self-sufficient runtime for containers
+
+Common Commands:
+  run         Create and run a new container from an image
+  exec        Execute a command in a running container
+  ps          List containers
+  build       Build an image from a Dockerfile
+  pull        Download an image from a registry
+  push        Upload an image to a registry
+  images      List images
+  login       Log in to a registry
+  logout      Log out from a registry
+  search      Search Docker Hub for images
+  version     Show the Docker version information
+  info        Display system-wide information
+
+Management Commands:
+  builder     Manage builds
+  buildx*     Docker Buildx (Docker Inc., v0.12.1-desktop.4)
+  checkpoint  Manage checkpoints
+  compose*    Docker Compose (Docker Inc., v2.24.6-desktop.1)
+  container   Manage containers
+  context     Manage contexts
+  debug*      Get a shell into any image or container. (Docker Inc., 0.0.24)
+  dev*        Docker Dev Environments (Docker Inc., v0.1.0)
+  extension*  Manages Docker extensions (Docker Inc., v0.2.22)
+  feedback*   Provide feedback, right in your terminal! (Docker Inc., v1.0.4)
+  image       Manage images
+  init*       Creates Docker-related starter files for your project (Docker Inc., v1.0.1)
+  manifest    Manage Docker image manifests and manifest lists
+  network     Manage networks
+  plugin      Manage plugins
+  sbom*       View the packaged-based Software Bill Of Materials (SBOM) for an image (Anchore Inc., 0.6.0)
+  scout*      Docker Scout (Docker Inc., v1.5.0)
+  system      Manage Docker
+  trust       Manage trust on Docker images
+  volume      Manage volumes
+
+Swarm Commands:
+  config      Manage Swarm configs
+  node        Manage Swarm nodes
+  secret      Manage Swarm secrets
+  service     Manage Swarm services
+  stack       Manage Swarm stacks
+  swarm       Manage Swarm
+
+Commands:
+  attach      Attach local standard input, output, and error streams to a running container
+  commit      Create a new image from a container's changes
+  cp          Copy files/folders between a container and the local filesystem
+  create      Create a new container
+  diff        Inspect changes to files or directories on a container's filesystem
+  events      Get real time events from the server
+  export      Export a container's filesystem as a tar archive
+  history     Show the history of an image
+  import      Import the contents from a tarball to create a filesystem image
+  inspect     Return low-level information on Docker objects
+  kill        Kill one or more running containers
+  load        Load an image from a tar archive or STDIN
+  logs        Fetch the logs of a container
+  pause       Pause all processes within one or more containers
+  port        List port mappings or a specific mapping for the container
+  rename      Rename a container
+  restart     Restart one or more containers
+  rm          Remove one or more containers
+  rmi         Remove one or more images
+  save        Save one or more images to a tar archive (streamed to STDOUT by default)
+  start       Start one or more stopped containers
+  stats       Display a live stream of container(s) resource usage statistics
+  stop        Stop one or more running containers
+  tag         Create a tag TARGET_IMAGE that refers to SOURCE_IMAGE
+  top         Display the running processes of a container
+  unpause     Unpause all processes within one or more containers
+  update      Update configuration of one or more containers
+  wait        Block until one or more containers stop, then print their exit codes
+
+Global Options:
+      --config string      Location of client config files (default
+                           "C:\\Users\\Bruno\\.docker")
+  -c, --context string     Name of the context to use to connect to the
+                           daemon (overrides DOCKER_HOST env var and
+                           default context set with "docker context use")
+  -D, --debug              Enable debug mode
+  -H, --host list          Daemon socket to connect to
+  -l, --log-level string   Set the logging level ("debug", "info",
+                           "warn", "error", "fatal") (default "info")
+      --tls                Use TLS; implied by --tlsverify
+      --tlscacert string   Trust certs signed only by this CA (default
+                           "C:\\Users\\Bruno\\.docker\\ca.pem")
+      --tlscert string     Path to TLS certificate file (default
+                           "C:\\Users\\Bruno\\.docker\\cert.pem")
+      --tlskey string      Path to TLS key file (default
+                           "C:\\Users\\Bruno\\.docker\\key.pem")
+      --tlsverify          Use TLS and verify the remote
+  -v, --version            Print version information and quit
+
+Run 'docker COMMAND --help' for more information on a command.
+
+For more help on how to use Docker, head to https://docs.docker.com/go/guides/
+PS C:\Users\Bruno\Desktop\ArqSW_ELP_Practico\ArqSw-ELP-Microtarea-Docker> docker compose up
+error during connect: this error may indicate that the docker daemon is not running: Get "http://%2F%2F.%2Fpipe%2Fdocker_engine/v1.24/containers/json?all=1&filters=%7B%22label%22%3A%7B%22com.docker.compose.config-hash%22%3Atrue%2C%22com.docker.compose.project%3Darqsw-elp-microtarea-docker%22%3Atrue%7D%7D": open //./pipe/docker_engine: The system cannot find the file specified.
+PS C:\Users\Bruno\Desktop\ArqSW_ELP_Practico\ArqSw-ELP-Microtarea-Docker> docker compose up
+[+] Running 9/9
+ ✔ redis 8 layers [⣿⣿⣿⣿⣿⣿⣿⣿]      0B/0B      Pulled                        6.7s 
+   ✔ 43c4264eed91 Pull complete                        1.2s 
+   ✔ cc1711cdd203 Pull complete                        0.9s 
+   ✔ b3db14da7d7e Pull complete                        1.0s 
+   ✔ 23bd8946cf04 Pull complete                        1.7s 
+   ✔ a6faf94f7383 Pull complete                        2.7s 
+   ✔ c5a6f4d557ce Pull complete                        1.9s 
+   ✔ 4f4fb700ef54 Pull complete                        2.5s 
+   ✔ 1b67933c677e Pull complete                        2.8s 
+[+] Building 18.9s (13/13) FINISHED                                                                       docker:default
+ => [web internal] load build definition from Dockerfile                                                            0.1s
+ => => transferring dockerfile: 341B                                                                                0.0s 
+ => [web] resolve image config for docker.io/docker/dockerfile:1                                                    2.3s 
+ => [web] docker-image://docker.io/docker/dockerfile:1@sha256:fe40cf4e92cd0c467be2cfc30657a680ae2398318afd50b0c805  1.3s
+ => => resolve docker.io/docker/dockerfile:1@sha256:fe40cf4e92cd0c467be2cfc30657a680ae2398318afd50b0c80585784c604f  0.0s 
+ => => sha256:fe40cf4e92cd0c467be2cfc30657a680ae2398318afd50b0c80585784c604f28 8.40kB / 8.40kB                      0.0s 
+ => => sha256:dc9e236567481e0aca4c1f52351af213b9a176622f10e3f4a86e5cc48919fa01 482B / 482B                          0.0s 
+ => => sha256:fd020648a727ee1aa6fe2924bf9c498d19385fa2491ddeecb9da9a499c43e35a 1.26kB / 1.26kB                      0.0s 
+ => => sha256:2ba8a93af1b3f8d1c5354117c15aa2eaa674a24a81b6622506a8a524ba8d3fc9 12.46MB / 12.46MB                    1.0s 
+ => => extracting sha256:2ba8a93af1b3f8d1c5354117c15aa2eaa674a24a81b6622506a8a524ba8d3fc9                           0.2s
+ => [web internal] load metadata for docker.io/library/python:3.10-alpine                                           1.9s
+ => [web internal] load .dockerignore                                                                               0.0s
+ => => transferring context: 2B                                                                                     0.0s 
+ => [web 1/6] FROM docker.io/library/python:3.10-alpine@sha256:7efe9aaaca61740b2d6107e4dc85fc1f35adca8c72c77dc137c  3.3s
+ => => resolve docker.io/library/python:3.10-alpine@sha256:7efe9aaaca61740b2d6107e4dc85fc1f35adca8c72c77dc137ca078  0.0s 
+ => => sha256:6a15a8abd578e49a4cc6852f3ed1c88a1e5f7d71adfe601e4ad424ea3ec0a03b 6.33kB / 6.33kB                      0.0s 
+ => => sha256:22af4b207a4e64cf737a448b26ed35825fb268f7ab20682e26fe7ac86d95c056 455.11kB / 455.11kB                  0.3s 
+ => => sha256:62f1bb0422469b3fdf2d5a2e8592fe66eedb653cdfa6513b30caf7a5ebcdd4ed 12.22MB / 12.22MB                    1.0s 
+ => => sha256:1d27aeaa808acecf6fcf05f7bc36e1ef0e5ac1d94456a19dd4e924db2505d63d 231B / 231B                          0.4s 
+ => => sha256:7efe9aaaca61740b2d6107e4dc85fc1f35adca8c72c77dc137ca078bf609fe74 10.30kB / 10.30kB                    0.0s 
+ => => sha256:213ae6d848fb2c78b099212344d0e07852abcfc58ec703a83ca5af7fad30a936 1.93kB / 1.93kB                      0.0s 
+ => => extracting sha256:22af4b207a4e64cf737a448b26ed35825fb268f7ab20682e26fe7ac86d95c056                           0.4s 
+ => => sha256:74e9275ed34bd293d7e7eac863d340960b13efa3890910efde42b2644610df2b 3.08MB / 3.08MB                      1.2s 
+ => => extracting sha256:62f1bb0422469b3fdf2d5a2e8592fe66eedb653cdfa6513b30caf7a5ebcdd4ed                           0.9s 
+ => => extracting sha256:1d27aeaa808acecf6fcf05f7bc36e1ef0e5ac1d94456a19dd4e924db2505d63d                           0.0s 
+ => => extracting sha256:74e9275ed34bd293d7e7eac863d340960b13efa3890910efde42b2644610df2b                           0.7s 
+ => [web internal] load build context                                                                               0.1s 
+ => => transferring context: 41.06kB                                                                                0.0s 
+ => [web 2/6] WORKDIR /code                                                                                         0.1s 
+ => [web 3/6] RUN apk add --no-cache gcc musl-dev linux-headers                                                     4.3s 
+ => [web 4/6] COPY requirements.txt requirements.txt                                                                0.1s 
+ => [web 5/6] RUN pip install -r requirements.txt                                                                   4.5s 
+ => [web 6/6] COPY . .                                                                                              0.1s 
+ => [web] exporting to image                                                                                        0.6s 
+ => => exporting layers                                                                                             0.6s 
+ => => writing image sha256:0448e342e13892981f74b2cd677ac6163d846c4ba47be33bc96f3b22e950721d                        0.0s 
+ => => naming to docker.io/library/arqsw-elp-microtarea-docker-web                                                  0.0s 
+[+] Running 3/3
+ ✔ Network arqsw-elp-microtarea-docker_default    Created                        0.0s 
+ ✔ Container arqsw-elp-microtarea-docker-redis-1  Created                        0.1s 
+ ✔ Container arqsw-elp-microtarea-docker-web-1    Created                        0.1s 
+Attaching to redis-1, web-1
+redis-1  | 1:C 10 Sep 2024 00:17:36.502 * oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+redis-1  | 1:C 10 Sep 2024 00:17:36.502 * Redis version=7.4.0, bits=64, commit=00000000, modified=0, pid=1, just started 
+redis-1  | 1:C 10 Sep 2024 00:17:36.502 # Warning: no config file specified, using the default config. In order to specify a config file use redis-server /path/to/redis.conf
+redis-1  | 1:M 10 Sep 2024 00:17:36.502 * monotonic clock: POSIX clock_gettime
+redis-1  | 1:M 10 Sep 2024 00:17:36.503 * Running mode=standalone, port=6379.
+redis-1  | 1:M 10 Sep 2024 00:17:36.503 * Server initialized
+redis-1  | 1:M 10 Sep 2024 00:17:36.504 * Ready to accept connections tcp
+web-1    |  * Serving Flask app 'app.py'
+web-1    |  * Debug mode: on
+web-1    | WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+web-1    |  * Running on all addresses (0.0.0.0)
+web-1    |  * Running on http://127.0.0.1:5000
+web-1    |  * Running on http://172.18.0.3:5000
+web-1    | Press CTRL+C to quit
+web-1    |  * Restarting with stat
+web-1    |  * Debugger is active!
+web-1    |  * Debugger PIN: 296-201-646
+web-1    | 172.18.0.1 - - [10/Sep/2024 00:20:43] "GET / HTTP/1.1" 200 -
+web-1    | 172.18.0.1 - - [10/Sep/2024 00:20:44] "GET /favicon.ico HTTP/1.1" 404 -
+web-1    | 172.18.0.1 - - [10/Sep/2024 00:20:46] "GET / HTTP/1.1" 200 -
+web-1    | 172.18.0.1 - - [10/Sep/2024 00:20:48] "GET / HTTP/1.1" 200 -
+web-1    | 172.18.0.1 - - [10/Sep/2024 00:20:49] "GET / HTTP/1.1" 200 -
+web-1    | 172.18.0.1 - - [10/Sep/2024 00:20:50] "GET / HTTP/1.1" 200 -
+web-1    | 172.18.0.1 - - [10/Sep/2024 00:20:50] "GET / HTTP/1.1" 200 -
+web-1    | 172.18.0.1 - - [10/Sep/2024 00:20:50] "GET / HTTP/1.1" 200 -
+web-1    | 172.18.0.1 - - [10/Sep/2024 00:20:51] "GET / HTTP/1.1" 200 -
+web-1    | 172.18.0.1 - - [10/Sep/2024 00:20:51] "GET / HTTP/1.1" 200 -
+web-1    | 172.18.0.1 - - [10/Sep/2024 00:20:51] "GET / HTTP/1.1" 200 -
+redis-1  | 1:signal-handler (1725927719) Received SIGTERM scheduling shutdown...
+redis-1  | 1:M 10 Sep 2024 00:22:00.036 * User requested shutdown...
+redis-1  | 1:M 10 Sep 2024 00:22:00.036 * Saving the final RDB snapshot before exiting.     
+redis-1  | 1:M 10 Sep 2024 00:22:00.042 * DB saved on disk
+redis-1  | 1:M 10 Sep 2024 00:22:00.042 # Redis is now ready to exit, bye bye...
+redis-1 exited with code 0
+redis-1 exited with code 0
+web-1 exited with code 0
+PS C:\Users\Bruno\Desktop\ArqSW_ELP_Practico\ArqSw-ELP-Microtarea-Docker>                    
+
+
+
+
+
+
+
+(c) Microsoft Corporation. Todos los derechos reservados.
+
+C:\Users\Bruno\Desktop\ArqSW_ELP_Practico\ArqSw-ELP-Microtarea-Docker> docker image ls
+REPOSITORY                        TAG       IMAGE ID       CREATED         SIZE
+arqsw-elp-microtarea-docker-web   latest    0448e342e138   3 minutes ago   224MB
+postgres                          latest    b781f3a53e61   4 weeks ago     432MB
+redis                             alpine    7d06252fad43   6 weeks ago     41.2MB
+
+C:\Users\Bruno\Desktop\ArqSW_ELP_Practico\ArqSw-ELP-Microtarea-Docker>docker compose down
+[+] Running 3/3
+ ✔ Container arqsw-elp-microtarea-docker-redis-1  Removed                             0.5s 
+ ✔ Container arqsw-elp-microtarea-docker-web-1    Removed                             0.6s 
+ ✔ Network arqsw-elp-microtarea-docker_default    Removed                             0.2s 
+
+C:\Users\Bruno\Desktop\ArqSW_ELP_Practico\ArqSw-ELP-Microtarea-Docker>
+
+
+
+
+PS C:\Users\Bruno\Desktop\ArqSW_ELP_Practico\ArqSw-ELP-Microtarea-Docker> docker compose watch
+[+] Building 0.0s (0/0)  docker:default
+2024/09/09 21:24:10 http2: server: error reading preface from client //./pipe/docker_e[+] Building 1.7s (13/13) FINISHED docker:defaulteb internal] load build defini  0.0s
+ => [web internal] load build defini  0.0s
+ => => transferring dockerfile: 341B  0.0s
+ => [web] resolve image config for d  0.9s
+ => CACHED [web] docker-image://dock  0.0s
+ => [web internal] load metadata for  0.5s
+ => [web internal] load .dockerignor  0.0s
+ => => transferring context: 2B       0.0s
+ => [web 1/6] FROM docker.io/library  0.0s 
+ => [web internal] load build contex  0.0s 
+ => => transferring context: 1.99kB   0.0s 
+ => CACHED [web 2/6] WORKDIR /code    0.0s 
+ => CACHED [web 3/6] RUN apk add --n  0.0s 
+ => CACHED [web 4/6] COPY requiremen  0.0s 
+ => CACHED [web 5/6] RUN pip install  0.0s 
+ => CACHED [web 6/6] COPY . .         0.0s 
+ => [web] exporting to image          0.0s 
+ => => exporting layers               0.0s 
+ => => writing image sha256:20adc0cd  0.0s 
+ => => naming to docker.io/library/a  0.0s 
+[+] Running 2/0
+ ✔ Container arqsw-elp-microtarea-docker-redis-1  Running0.0s
+ ✔ Container arqsw-elp-microtarea-docker-web-1    Running0.0s
+Watch configuration for service "web":      
+  - Action sync for path "C:\\Users\\Bruno\\Desktop\\ArqSW_ELP_Practico\\ArqSw-ELP-Microtare-Docker\infra.yaml
+Syncing "web" after changes were detected:
+  - C:\Users\Bruno\Desktop\ArqSW_ELP_Practico\ArqSw-ELP-Microtarea-Docker\compose.yaml      
+canceled
+PS C:\Users\Bruno\Desktop\ArqSW_ELP_Practico\ArqSw-ELP-Microtarea-Docker> docker compose up
+[+] Running 2/0
+ ✔ Container arqsw-elp-microtarea-docker-redis-1  Running                              0.0s 
+ ✔ Container arqsw-elp-microtarea-docker-web-1    Running                              0.0s 
+Attaching to redis-1, web-1

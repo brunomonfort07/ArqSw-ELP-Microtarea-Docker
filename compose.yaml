@@ -1,0 +1,12 @@
+include:
+   - infra.yaml
+services:
+  web:
+    build: .
+    ports:
+      - "8000:5000"
+    develop:
+      watch: # Compose Watch. preview your running Compose services which are automatically updated as you edit and save your code
+        - action: sync
+          path: .
+          target: /code
